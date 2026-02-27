@@ -1,0 +1,71 @@
+# ======================
+# Node Modules
+# ======================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Logs
+# ======================
+logs
+*.log
+
+# ======================
+# Build Folders
+# ======================
+build/
+dist/
+.next/
+out/
+
+# ======================
+# React
+# ======================
+frontend/node_modules/
+frontend/build/
+
+# ======================
+# Coverage
+# ======================
+coverage/
+
+# ======================
+# Database
+# ======================
+*.sqlite
+*.sqlite3
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Temporary Files
+# ======================
+tmp/
+temp/
+
+# ======================
+# Misc
+# ======================
+.cache/
